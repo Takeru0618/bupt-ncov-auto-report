@@ -11,24 +11,24 @@ REPORT_API = 'https://app.bupt.edu.cn/ncov/wap/default/save'
 # 当今日没有填报时，在https://app.bupt.edu.cn/ncov/wap/default/index下进行填报，
 # 全部填完，不要提交，f12打开控制台，在Console页面下输入代码 console.log(vm.info) 就会得到以下信息，之后每天就默认填以下信息
 INFO = r"""{
-        address: "黑龙江省鸡西市虎林市虎林镇北兴西街中欧丽景"
+        address: "黑龙江省鸡西市虎林市虎林镇市场路95号兴华公寓"
         area: "黑龙江省 鸡西市 虎林市"
-        bztcyy: 4
+        bztcyy: ""
         city: "鸡西市"
-        created: 1642633534
-        created_uid: 0
+        created: 1642786938
         csmjry: "0"
-        date: "20220120"
-        geo_api_info: "{\"type\":\"complete\",\"info\":\"SUCCESS\",\"status\":1,\"fEa\":\"jsonp_451240_\",\"position\":{\"Q\":45.77523,\"R\":132.9717,\"lng\":132.9717,\"lat\":45.77523},\"message\":\"Get ipLocation success.Get address success.\",\"location_type\":\"ip\",\"accuracy\":null,\"isConverted\":true,\"addressComponent\":{\"citycode\":\"0467\",\"adcode\":\"230381\",\"businessAreas\":[],\"neighborhoodType\":\"\",\"neighborhood\":\"\",\"building\":\"\",\"buildingType\":\"\",\"street\":\"北兴西街\",\"streetNumber\":\"33号\",\"country\":\"中国\",\"province\":\"黑龙江省\",\"city\":\"鸡西市\",\"district\":\"虎林市\",\"towncode\":\"230381100000\",\"township\":\"虎林镇\"},\"formattedAddress\":\"黑龙江省鸡西市虎林市虎林镇北兴西街中欧丽景\",\"roads\":[],\"crosses\":[],\"pois\":[]}"
+        date: "20220122"
+        geo_api_info: "{\"type\":\"complete\",\"position\":{\"Q\":45.770112033421,\"R\":132.97974582248298,\"lng\":132.979746,\"lat\":45.770112},\"location_type\":\"html5\",\"message\":\"Get ipLocation failed.Get geolocation success.Convert Success.Get address success.\",\"accuracy\":86.035,\"isConverted\":true,\"status\":1,\"addressComponent\":{\"citycode\":\"0467\",\"adcode\":\"230381\",\"businessAreas\":[],\"neighborhoodType\":\"\",\"neighborhood\":\"\",\"building\":\"\",\"buildingType\":\"\",\"street\":\"市场路\",\"streetNumber\":\"95号\",\"country\":\"中国\",\"province\":\"黑龙江省\",\"city\":\"鸡西市\",\"district\":\"虎林市\",\"towncode\":\"230381100000\",\"township\":\"虎林镇\"},\"formattedAddress\":\"黑龙江省鸡西市虎林市虎林镇市场路95号兴华公寓\",\"roads\":[],\"crosses\":[],\"pois\":[],\"info\":\"SUCCESS\"}"
         glksrq: ""
         gllx: ""
         gtjzzfjsj: ""
         gwszdd: ""
-        id: 17012178
-        ismoved: 1
+        id: 17070635
+        ismoved: 0
         jcbhlx: ""
         jcbhrq: ""
         jchbryfs: ""
+        jcjg: ""
         jcjgqr: "0"
         jcqzrq: ""
         jcwhryfs: ""
@@ -50,8 +50,8 @@ INFO = r"""{
         sfjcwhry: "0"
         sfjzdezxgym: 1
         sfjzxgym: 1
-        sfsfbh: 1
-        sfsqhzjkk: ""
+        sfsfbh: 0
+        sfsqhzjkk: 0
         sftjhb: "0"
         sftjwh: "0"
         sfxk: 0
@@ -69,7 +69,7 @@ INFO = r"""{
         xkqq: ""
         xwxgymjzqk: 3
         ymjzxgqk: ""
-        zgfxdq: "0"        
+        zgfxdq: "0"     
         }"""
 
 REASONABLE_LENGTH = 24
